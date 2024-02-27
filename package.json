@@ -1,18 +1,16 @@
 {
-  "name": "with-cms-wordpress",
+  "name": "headless-wordpress-vanilla-js",
   "version": "1.0.0",
-  "author": "Josh Larson <jplhomer@gmail.com>",
-  "license": "MIT",
-  "main": "index.js",
-  "private": true,
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "dev": "flareact dev",
-    "build": "flareact build",
-    "deploy": "flareact publish"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "dependencies": {
-    "flareact": "^1.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
 }
